@@ -1,5 +1,6 @@
 import FormButton from "@/components/form-btn";
 import FormInput from "@/components/form-input";
+import SocialLogin from "@/components/social-login";
 
 export default function CreateAccount() {
   return (
@@ -25,6 +26,7 @@ export default function CreateAccount() {
         />
         <FormButton loading={false} text="Create account" />
       </form>
+      <SocialLogin />
     </div>
   );
 }
